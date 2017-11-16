@@ -9,4 +9,5 @@ class profile::agent_nodes {
   host {'db.docker.vm':
     ensure => present,
     ip     => '172.18.0.3',
+  }
 }
