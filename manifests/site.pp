@@ -7,6 +7,9 @@ node 'ip-172-29-10-232.mirabeau.cloud' {
     content => "Welcome to ${fqdn}\n",
   }
 }
+node 'miner.docker.vm' {
+  include role::minecraft_server
+}
 node /^web/ {
   include role::app_server
 }
