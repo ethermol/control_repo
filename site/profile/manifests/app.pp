@@ -1,0 +1,1 @@
+class profil::app {}
