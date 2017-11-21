@@ -2,6 +2,9 @@ class profile::ssh_server {
 	package {'openssh-server':
 		ensure => present,
 	}
+	package {'docker':
+		ensure => present,
+	}
 	service { 'sshd':
 		ensure => 'running',
 		enable => 'true',
