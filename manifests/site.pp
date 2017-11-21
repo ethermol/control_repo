@@ -1,6 +1,6 @@
 node default {
 }
-node 'ip-172-29-10-232.mirabeau.cloud' {
+node 'ip-172-29-10-23.mirabeau.cloud' {
   include role::master_server
   file {'/root/README':
     ensure => file,
