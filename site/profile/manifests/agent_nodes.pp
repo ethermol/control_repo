@@ -5,7 +5,7 @@ class profile::agent_nodes {
   dockeragent::node {'miner.docker.vm':}
   host {'web.docker.vm':
     ensure => present,
-    ip     => '172.18.0.4',
+    ip     => '172.18.0.2',
   }
   host {'db.docker.vm':
     ensure => present,
